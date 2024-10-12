@@ -136,3 +136,48 @@ img{
 .title-position {
     font-weight: bold;
 }
+
+.contact-us-div-container {
+    text-align: center;
+}
+
+.contact-us-div-container img {
+    display: inline-block;
+    width: 75%;
+    border-radius: 50px;
+}
+
+.contact-header {
+    font-weight: bold;
+}
+
+.no-bullets {
+    list-style-type: none; /* Removes bullets */
+    padding-left: 0; /* Removes the default left padding */
+    margin-left: 0; /* Optional: removes default margin */
+}
+
+.cornflowerblue-text {
+    color: cornflowerblue; /* Changes text color to cornflowerblue blue */
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.borderless {
+    border: none !important;
+}
+
+.left-div {
+    border-left: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    border-right: 2px solid black !important; /* Creates the vertical line */
+    border-radius: 0 !important;
+}
+
+.contact-us-main-card {
+    border: 2px solid black !important;
+    border-radius: 75px !important;     /* Controls the rounding of the corners */
+}
