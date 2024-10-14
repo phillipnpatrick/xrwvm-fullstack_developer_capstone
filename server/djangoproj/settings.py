@@ -30,10 +30,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
-    'phillipnpatr-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.' +
+    'phillipnpatr-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.' +
     'proxy.cognitiveclass.ai']
 CSRF_TRUSTED_ORIGINS = [
-    'https://phillipnpatr-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01' +
+    'https://phillipnpatr-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01' +
     '.proxy.cognitiveclass.ai',
     'http://localhost:8000',  # Add localhost if you test locally
 ]
